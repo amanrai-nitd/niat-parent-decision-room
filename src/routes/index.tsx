@@ -24,15 +24,15 @@ function Index() {
       <section className="grid gap-10 py-6 md:grid-cols-2 md:items-center">
         <div>
           <p className="text-sm font-semibold uppercase tracking-wider text-primary">For students & parents</p>
-          <h1 className="mt-3 font-display text-4xl leading-tight text-foreground md:text-5xl">
-            Make the NIAT decision with facts, not guesses.
+          <h1 className="mt-3 text-balance font-display text-4xl leading-tight text-foreground md:text-5xl">
+            Every admission question deserves a clear answer.
           </h1>
-          <p className="mt-4 text-muted-foreground">
-            Share your questions on admissions, fees, the degree, curriculum and careers. We prepare a brief that points to
-            official information and lists exactly what to ask in your counselling session.
+          <p className="mt-4 max-w-xl text-pretty text-muted-foreground">
+            Get personalised, fact-based answers about NIAT, understand what you still need to verify, and prepare for
+            your next counselling conversation.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <Link to="/start" className="btn-primary">Start my brief</Link>
+            <Link to="/start" className="btn-primary">Get my decision brief</Link>
             <Link to="/dashboard" className="btn-outline">I'm a counsellor</Link>
           </div>
         </div>
